@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dnsNamePrefix": {
+      "value": "neweracode"
+    },
+    "agentCount": {
+      "value": 1
+    },
+    "agentVMSize" : {
+      "value": "Standard_DS2_v2"
+    },
+    "linuxAdminUsername": {
+      "value": "azureuser"
+    },
+    "orchestratorType": {
+      "value": "Swarm"
+    },
+    "masterCount": {
+      "value": 1
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiPHufi6IKitW0+qnmANG4hSUx4bYA4BzGwIEyucxfJdo6edKeCqUgzKUN5y+srYJdDYKHPNYeXQu7nNOB0yTi4DNKIEA2/L7LhAaO40GL1EkncHHiyAzs75eiD6vxlYders3L0n6XyD21miMvpVKZ+Fu5J4Hk0sHe2iEjSylxQ1Lkv4/J1wIZm1xttFJW9BIUhjJB98YcWbN6PKYRgaRnJ4CEApjAX7Q7q1OeoGkMHOmpVicqwmfC47gUtlbbIkSVaY+XdHi/ldwMpYzTF++jOl206yAHLyXdORywpXLEIW3uaQEVYv66xfzk07hm+9P4cv9TGRsUbPj1i4oUHbUz azureuser@linuxvm"
+    }
+  }
+}
